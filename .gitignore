@@ -1,0 +1,18 @@
+# colcon
+build/
+install/
+log/
+# Python / editor
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+# Gazebo
+*.gazebo_cache
+~/.gazebo/
+# Generated large files / recordings (maps are kept)
+*.mp4
+*.mkv
+*.bag
+*.db3
+rosbag2_*/
